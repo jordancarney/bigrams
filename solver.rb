@@ -6,6 +6,7 @@ class Solver
   # Finds most probably bigram match from first word of bigram
   # Params:
   # - word: the first word of the bigram
+  private
   def find_best_match(word)
     matches = @csv.select do |hash|
       hash["bigram"].split[0] == word
@@ -32,6 +33,7 @@ class Solver
   # Params:
   # - word: the first word of the bigram
   # - iterations: max number of bigram matches to find
+  public
   def solve(word, iterations)
     puts "starting with #{word}"
 
