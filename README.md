@@ -1,2 +1,4 @@
 # bigrams
-A simple interview puzzle.
+
+To run:
+`$ ruby test.rb <word> <iterations> (optional)`
