@@ -3,7 +3,7 @@ class Solver
     @csv = csv
   end
 
-  # Finds most probably bigram match from first word of bigram
+  # Finds most probable bigram match from first word of bigram
   # Params:
   # - word: the first word of the bigram
   private
